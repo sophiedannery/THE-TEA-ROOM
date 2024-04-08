@@ -11988,7 +11988,7 @@ footer.footer {
 }
 
 .hero-scene {
-  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/Media/bg-big-title.jpg);
+  background-image: linear-gradient(rgba(4, 9, 30, 0.6), rgba(4, 9, 30, 0.6)), url(/Media/teacreativelife-soo-chung-1-01mnhMTbw-unsplash.jpg);
   width: 100%;
   background-position: center;
   background-size: cover;
@@ -12000,4 +12000,8 @@ footer.footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.text-justify {
+  text-align: justify;
 }/*# sourceMappingURL=main.css.map */
