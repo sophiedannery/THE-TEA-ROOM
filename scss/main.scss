@@ -34,6 +34,7 @@ footer.footer{
     width: 100%;
     background-position: center;
     background-size: cover;
+    margin-bottom: 15px;
 }
 
 .hero-scene-content{
@@ -43,6 +44,8 @@ footer.footer{
     align-items: center;
     justify-content: center;
 }
+
+
 
 
 // HOME PAGE
@@ -86,4 +89,12 @@ footer.footer{
         opacity: 0;
         transition: all 0.3s;
     }
+}
+
+
+
+// FORMULAIRE DE CONNEXION
+
+.form-label{
+    color: $primary;
 }

@@ -11992,6 +11992,7 @@ footer.footer {
   width: 100%;
   background-position: center;
   background-size: cover;
+  margin-bottom: 15px;
 }
 
 .hero-scene-content {
@@ -12029,4 +12030,8 @@ footer.footer {
   transform: translate(-50%, -50%);
   opacity: 0;
   transition: all 0.3s;
+}
+
+.form-label {
+  color: #906427;
 }/*# sourceMappingURL=main.css.map */
