@@ -11,9 +11,35 @@ main{
     margin-bottom: 250px;
 }
 
+p{
+    font-family: $font-family-serif;
+    font-size: 18px;
+}
+
+
+
+// FOOTER
+
 footer.footer{
     padding: 15px;
     position: absolute;
     bottom: 0;
     width: 100%;
+}
+
+
+// BIG TITLE
+.hero-scene{
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url(/Media/bg-big-title.jpg);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-scene-content{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
