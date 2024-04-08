@@ -12017,6 +12017,10 @@ footer.footer {
 }
 .image-card img {
   transition: all 0.3s;
+  height: 250px;
+  width: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .image-card .titre-image {
   position: absolute;
