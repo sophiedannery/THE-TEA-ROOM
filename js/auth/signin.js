@@ -9,11 +9,9 @@ function checkCredentials(){
 
     if (mailInput.value == "test@mail.com" && passwordInput.value == "123") {
 
-        alert("Vous êtes connecté");
-
         // Il faudra récupérer le vrai token
         const token = "fygfyjzgeyufgggfyugef"
-
+        setToken(token);
         // placer ce token en cookie
         
 
